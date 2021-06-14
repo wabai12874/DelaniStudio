@@ -128,11 +128,11 @@
 
 .overlay {
     position: absolute;
-    top: 70%;
+    top: 25%;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 25%;
+    height: 50%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
