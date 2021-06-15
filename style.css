@@ -191,24 +191,95 @@
 
 }
 #submitbtn{
-    width: 50%;
+    width: 20%;
     margin-top: 30px;
+    margin-left: 40%;
     color: white;
     border-width: 2px;
     border-color: white;
+    margin-bottom: 100px;
+
+}
+
+#userMail{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+#userName{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+#comment {
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+
+}
+.contact{
+    background-image: url('assets/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.title{
+    padding: 6px;
+}
+.contact h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
 }
 
 
 
-@media (min-width: 1080px) and (max-width: 1440px){
 
-    body{
-        margin: 0;
-        border: 0;
+
+
+
+@media (min-width: 576px) {
+    #userMail{
+        width: 30%;
+        margin-left: 1%;
+        padding-bottom: 10px;
+        float: left;
+    }
+    #userName{
+        width: 30%;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    #comment {
+        margin-left: -30%;
+        margin-top: 20px;
+        width: 61%;
+        float: left;
+
     }
 
 
+
+
 }
+
+
 
 
 
