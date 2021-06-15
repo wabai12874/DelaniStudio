@@ -158,6 +158,15 @@
     text-align: center;
 }
 
+@media (min-width: 1080px) and (max-width: 1440px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
 
 
 
