@@ -1,4 +1,6 @@
+//javascript function for the disappearing design button and text appearing on click
 var times=0;
+
 $(".designbtn").on("click", function(){
     times++;
     if (times%2===1){
@@ -17,6 +19,9 @@ $(".designbtn").on("click", function(){
 
 });
 
+
+
+//javascript function for disappearing development button
 var times2=0;
 
 $("#devbtn").on("click", function(){
@@ -34,6 +39,8 @@ $("#devbtn").on("click", function(){
     }
 
 });
+
+//javascript for the disappearing product button for the paragraph to appear
 
 var times3=0;
 
