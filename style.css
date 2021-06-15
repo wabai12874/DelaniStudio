@@ -250,6 +250,9 @@ input[type=text],input[type=email],#comment{
     padding-top: 30px;
     font-family: 'Raleway', sans-serif;
 }
+.foot img{
+    margin: 5px;
+}
 
 
 
