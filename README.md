@@ -37,7 +37,9 @@ Phpstorm as Code Editor<br>
 Github for hosting and storing repository<br>
 
 ## Project link for live webpage.
-[https://wabai12874.github.io/DelaniStudio/](https://wabai12874.github.io/DelaniStudio/)
+
+<a href="https://wabai12874.github.io/DelaniStudio/" target="_blank"> https://wabai12874.github.io/DelaniStudio/ </a>
+
 
 ## Contributing
 
