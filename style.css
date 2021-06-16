@@ -254,6 +254,13 @@ input[type=text],input[type=email],#comment{
     margin: 5px;
 }
 
+#mc_embed_signup{
+    background:transparent;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+    color: black;
+}
+
 
 
 
