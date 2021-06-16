@@ -63,7 +63,7 @@ $("#productbtn").on("click", function(){
 //function for the alertbox popup to show when user clicks the button
 
 function myFunction() {
-    let varName = document.getElementById("userName").value;
+    let varName = document.getElementById("MERGE1").value;
     //includes a line of code to auto capitalize the 1st letter of the users name.
     const nameCaps = varName.charAt(0).toUpperCase() + varName.slice(1)
     alert("Hey " + nameCaps + ". Thank you for reaching out to us.\nWe have received your message.\nHave a nice day");
