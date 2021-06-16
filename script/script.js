@@ -69,6 +69,16 @@ function myFunction() {
     alert("Hey " + nameCaps + ". Thank you for reaching out to us.\nWe have received your message.\nHave a nice day");
 }
 
+$(document).ready(function(){
+    var $form = $('form');
+    $form.submit(function(){
+        $.post($(this).attr('action'), $(this).serialize(), function(response){
+            // do something here on success
+        },'json');
+        return false;
+    });
+});
+
 
 
 

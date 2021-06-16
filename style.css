@@ -211,7 +211,7 @@
     margin-left: 10%;
     margin-bottom: 20px;
 }
-#comment {
+#MERGE2 {
     margin-left: 10%;
     margin-top: 20px;
     width: 80%;
@@ -235,7 +235,7 @@
     padding-bottom: 20px;
     font-family: 'Raleway', sans-serif;
 }
-input[type=text],input[type=email],#comment{
+input[type=text],input[type=email],#MERGE2{
     background: transparent;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -282,7 +282,7 @@ input[type=text],input[type=email],#comment{
         float: left;
         margin-bottom: 20px;
     }
-    #comment {
+    #MERGE2 {
         margin-left: -30%;
         margin-top: 20px;
         width: 61%;
