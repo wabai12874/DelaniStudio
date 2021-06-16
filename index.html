@@ -200,17 +200,20 @@
 <div class="container-fluid contact">
     <h2>CONTACT US</h2>
 
-    <form id="contact form">
+    <form id="contact form"  onsubmit="myFunction(); return false;"  >
         <div class="form-group form-inline" id="form1">
-            <input type="text" class="form-control" placeholder = "Name..." name="userName" id="userName" value="">
-            <input type="email" class="form-control"  placeholder = "Email...." name="userMail" id="userMail" value="">
+            <input type="text" class="form-control" placeholder = "Name..." name="userName" id="userName" value="" required>
+            <input type="email" class="form-control"  placeholder = "Email...." name="userMail" id="userMail" value="" required>
         </div>
         <div class="form-group">
-            <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+            <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...." required></textarea>
         </div>
         <button type="submit" class="btn btn-outline-primary" id="submitbtn">Submit</button>
     </form>
 </div>
+
+
+
 
 <footer class="foot">
     <img src="assets/social_icons/twitter.png" alt="twitter">
