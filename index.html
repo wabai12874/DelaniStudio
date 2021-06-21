@@ -206,7 +206,7 @@
      scrolltotop function makes the page scroll up to top on form submission since the myfunction cancels that out since i set return vakue to false. however, the input fields
      due to this function are not cleared on form submit. but the input is still received on my mailchimp audience dashboard-->
 
-    <form id="contact form"  onsubmit="scrollToTop()"  action="https://gmail.us6.list-manage.com/subscribe/post" method="POST">
+    <form id="contact form"  onsubmit="scrollToTop(); myFunction()"  action="https://gmail.us6.list-manage.com/subscribe/post" method="POST">
         <div class="form-group form-inline" id="form1">
             <input type="text" class="form-control" placeholder = "Name..." name="MERGE1" id="MERGE1" size="25" value="" required>
             <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" required>
