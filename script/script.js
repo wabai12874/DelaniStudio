@@ -69,19 +69,6 @@ function myFunction() {
     alert("Hey " + nameCaps + ". Thank you for reaching out to us.\nWe have received your message.\nHave a nice day");
 }
 
-//this function prevents the page from redirecting someone to the mailchimp thanks for subscribing webpage
-//however, the return false part makes the form not clear the input field cleared and not return to top of page on submit
-
-$(document).ready(function(){
-    var $form = $('form');
-    $form.submit(function(){
-        $.post($(this).attr('action'), $(this).serialize(), function(response){
-            // do something here on success
-        },'json');
-        return false;
-        
-    });
-});
 
 
 //this function deals with the issue of the form not returning to the top on submission due to the above function since the return value is false
