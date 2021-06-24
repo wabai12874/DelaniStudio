@@ -78,8 +78,28 @@ function scrollToTop() {
     return true;
 }
 
+function removedisplay1() {
+    document.getElementById("designparagraph").style.display= "none";
+    document.getElementById("designbtn").style.display="initial";
 
 
+    return false;
+}
+
+function removedisplay2() {
+    document.getElementById("productparagraph").style.display= "none";
+    document.getElementById("productbtn").style.display="initial";
+
+
+    return false;
+}
+function removedisplay3() {
+    document.getElementById("devparagraph").style.display= "none";
+    document.getElementById("devbtn").style.display="initial";
+
+
+    return false;
+}
 
 
 
